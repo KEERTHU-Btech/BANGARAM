@@ -1,0 +1,1427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>VIVEK❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- =====================================================
+     BACKGROUND
+===================================================== -->
+
+<div class="stars"></div>
+<div class="floating-hearts"></div>
+
+
+<!-- =====================================================
+     MUSIC
+===================================================== -->
+
+<audio id="music"></audio>
+
+<div class="music-player">
+
+    <button
+        class="song-btn"
+        onclick="previousSong()"
+        title="Previous Song"
+    >
+        ⏮️
+    </button>
+
+    <button
+        class="music-btn"
+        onclick="toggleMusic()"
+        title="Play / Pause"
+    >
+        🎵
+    </button>
+
+    <button
+        class="song-btn"
+        onclick="nextSong()"
+        title="Next Song"
+    >
+        ⏭️
+    </button>
+
+    <span id="songName">
+        Song 1 ❤️
+    </span>
+
+</div>
+
+
+<!-- =====================================================
+     1. PASSWORD
+===================================================== -->
+
+<section
+    class="screen active"
+    id="passwordScreen"
+>
+
+    <div class="password-box">
+
+        <div class="lock">
+            🔐
+        </div>
+
+        <p class="small-title"></p>
+
+        <h1>
+            <span>❤️</span>
+        </h1>
+
+        <p>
+            This little surprise is only for you...
+        </p>
+
+        <input
+            type="password"
+            id="passwordInput"
+            placeholder="Enter secret password"
+        >
+
+        <button
+            class="main-btn"
+            onclick="checkPassword()"
+        >
+            Enter❤️
+        </button>
+
+        <p id="wrongPassword"></p>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     2. EMOTIONAL INTRO
+===================================================== -->
+
+<section
+    class="screen"
+    id="intro"
+>
+
+    <div class="content">
+
+        <p class="small-title">
+            FROM MY HEART
+        </p>
+        
+        <div
+            id="typingText"
+            class="typing-text"
+        ></div>
+
+
+        <button
+            class="main-btn hidden-btn"
+            id="introButton"
+            onclick="showSinglePictures()"
+        >
+           Continue ❤️
+        </button>
+
+    <br><br>
+
+    <strong><p>Click continue too see next</p></strong>
+
+        
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     3. 14 SINGLE PICTURES
+===================================================== -->
+
+<section
+    class="screen"
+    id="singlePictures"
+>
+
+    <div class="content">
+
+        <p class="small-title">
+            JUST YOU ❤️
+        </p>
+
+        <h2>
+            Little
+            <span>Moments</span>
+        </h2>
+
+        <p class="section-subtitle">
+            Oka photo... oka memory... 
+            <br>
+            ClICK EVERY PICTURE RA...
+        </p>
+
+
+        <div class="single-photo-grid">
+
+
+            <!-- SINGLE 1 -->
+
+            <div class="single-photo">
+
+                <img
+                    src="pic1.jpeg"
+                    alt="1"
+                >
+
+                <h3>
+                    Little prince ❤️
+                </h3>
+
+
+            </div>
+
+
+            <!-- SINGLE 2 -->
+
+            <div class="single-photo">
+
+                <img
+                    src="pic2.jpeg"
+                    alt="2"
+                >
+
+                <h3>
+                    Beautiful Moment ✨
+                </h3>
+
+            </div>
+
+
+            <!-- SINGLE 3 -->
+             <div class="single-photo">
+
+                <img
+                    src="pic3.jpeg"
+                    alt="3"
+                >
+
+                <h3>
+                    Just You 🥹
+                </h3>
+
+                
+
+            </div>
+
+
+            <!-- SINGLE 4 -->
+
+            <div class="single-photo">
+
+                <img
+                    src="pic4.jpeg"
+                    alt="4"
+                >
+
+                <h3>
+                    Forever Memory ❤️
+                </h3>
+
+               
+
+            </div>
+
+
+            <!-- SINGLE 5 -->
+
+            <div class="single-photo">
+
+                <img
+                    src="pic5.jpeg"
+                    alt="5"
+                >
+
+                <h3>
+                    That Look ✨
+                </h3>
+
+                <p>
+                    Ee picture ki special place ra na heart lo🥰.
+                </p>
+
+            </div>
+
+
+            <!-- SINGLE 6 -->
+
+            <div class="single-photo">
+
+                <img
+                    src="pic6.jpeg"
+                    alt="6"
+                >
+
+                <h3>
+                    Traditional💖
+                </h3>
+
+                <p>
+                    Just a picture, beautiful memory.
+                </p>
+
+            </div>
+
+
+            <!-- SINGLE 7 -->
+
+            <div class="single-photo">
+
+                <img
+                    src="pic7.jpeg"
+                    alt="7"
+                >
+
+                <h3>
+                    Sweet dreams ra😂🫶
+                </h3>
+
+                <p>
+                    masth comedy 😂.
+                </p>
+
+            </div>
+
+
+            <!-- SINGLE 8 -->
+
+            <div class="single-photo">
+
+                <img
+                    src="pic8.jpeg"
+                    alt="8"
+                >
+
+                <h3>
+                    chooo cutee vivekuu😘❤️
+                </h3>
+
+                <p>
+                    Ee memory eppatiki special.
+                </p>
+
+            </div>
+
+
+            <!-- SINGLE 9 -->
+
+            <div class="single-photo">
+
+                <img
+                    src="pic9.jpeg"
+                    alt="9"
+                >
+
+                <h3>
+                    Remember This ✨
+                </h3>
+
+                <p>
+                    Ne nose superee.
+                </p>
+
+            </div>
+
+
+            <!-- SINGLE 10 -->
+
+            <div class="single-photo">
+
+                <img
+                    src="pic10.jpeg"
+                    alt="10"
+                >
+
+                <h3>
+                    ma chinnni vivekuu❤️
+                </h3>
+
+                <p>
+                    umaaaa😘.
+                </p>
+
+            </div>
+
+
+            <!-- SINGLE 11 -->
+
+            <div class="single-photo">
+
+                <img
+                    src="pic11.jpeg"
+                    alt="11"
+                >
+
+                <h3>
+                    just smile❤️
+                </h3>
+
+                <p>
+                    Ee smile kuda forever special.
+                </p>
+
+            </div>
+
+
+            <!-- SINGLE 12 -->
+
+            <div class="single-photo">
+
+                    <img src="pic12.jpeg"
+                    alt="12"
+                
+
+                <h3>
+                    Little Happiness ✨
+                </h3>
+
+                <p>
+                    Edi chosaka kuda koni aa 
+                    pechi mitai😍😅.
+                </p>
+
+            </div>
+
+
+            <!-- SINGLE 13 -->
+
+            <div class="single-photo">
+
+                <img
+                    src="pic13.jpeg"
+                    alt="13"
+                >
+
+                <h3>
+                     Angry boy😉🥹
+                </h3>
+
+                
+
+            </div>
+
+
+            <!-- SINGLE 14 -->
+
+            <div class="single-photo">
+
+                <img
+                    src="pic14.jpeg"
+                    alt="14"
+                >
+
+                <h3>
+                     😎❤️
+                </h3>
+
+                <p>
+                    One picture... endless memories.
+                </p>
+
+            </div>
+
+            <!-- SINGLE 15 -->
+
+<div class="single-photo">
+
+    <img
+        src="pic15.jpeg"
+        alt="15"
+    >
+
+    <h3>
+        Cluryy hairuuu🤣😂❤️
+    </h3>
+
+</div>
+
+
+<!-- SINGLE 16 -->
+
+<div class="single-photo">
+
+    <img
+        src="pic16.jpeg"
+        alt="16"
+    >
+
+    <h3>
+        BARRE 😍✨
+    </h3>
+
+</div>
+
+
+<!-- SINGLE 17 -->
+
+<div class="single-photo">
+
+    <img
+        src="pic17.jpeg"
+        alt="17"
+    >
+
+    <h3>
+        Cuteuuuu selfie❤️
+    </h3>
+
+</div>
+
+
+<!-- SINGLE 18 -->
+
+<div class="single-photo">
+
+    <img
+        src="pic18.jpeg"
+        alt="18"
+    >
+
+    <h3>
+        Ahaa kinguuu 💖
+    </h3>
+
+</div>
+
+
+<!-- SINGLE 19 -->
+
+<div class="single-photo">
+
+    <img
+        src="pic19.jpeg"
+        alt="19"
+    >
+
+    <h3>
+        Kontee Chopuu😘😝 🫶
+    </h3>
+
+</div>
+
+
+<!-- SINGLE 20 -->
+
+<div class="single-photo">
+
+    <img
+        src="pic20.jpeg"
+        alt="20"
+    >
+
+    <h3>
+        Superr smileuuu ❤️
+    </h3>
+
+</div>
+
+<!-- SINGLE 27 -->
+
+<div class="single-photo">
+
+    <img
+        src="pic27.jpeg"
+        alt="27"
+    >
+
+    <h3>
+        bangaram
+    </h3>
+
+</div>
+
+
+<!-- SINGLE 21 -->
+
+<div class="single-photo">
+
+    <img
+        src="pic21.jpeg"
+        alt="21"
+    >
+
+    <h3>
+        Jai babu😂🤣
+    </h3>
+
+</div>
+
+<!-- SINGLE 22 -->
+
+<div class="single-photo">
+
+    <img
+        src="pic22.jpeg"
+        alt="22"
+    >
+
+    <h3>
+        🎂🎂🤞
+    </h3>
+
+</div>
+
+<!-- SINGLE 23 -->
+
+<div class="single-photo">
+
+    <img
+        src="pic23.jpeg"
+        alt="23"
+    >
+
+    <h3>
+        One chocobarr😂🤏🤏
+    </h3>
+
+</div>
+
+<!-- SINGLE 24 -->
+
+<div class="single-photo">
+
+    <img
+        src="pic24.jpeg"
+        alt="24"
+    >
+
+    <h3>
+        Gunduu 👩‍🦲😂
+    </h3>
+
+</div>
+
+<!-- SINGLE 25 -->
+
+<div class="single-photo">
+
+    <img
+        src="pic25.jpeg"
+        alt="25"
+    >
+
+    <h3>
+        🐃😘
+    </h3>
+
+</div>
+
+<!-- SINGLE 26 -->
+
+<div class="single-photo">
+
+    <img
+        src="pic26.jpeg"
+        alt="26"
+    >
+
+    <h3>
+        Banee..😎
+    </h3>
+
+</div>
+
+
+
+
+
+
+        </div>
+
+
+        <button
+            class="main-btn"
+            onclick="showLetter()"
+        >
+            Continue To see Letter 💌
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     4. LETTER
+===================================================== -->
+<!-- =====================================================
+     4. LETTER
+===================================================== -->
+<section class="screen" id="letter">
+
+    <div class="content letter-content">
+
+        <p class="small-title">
+            JUST FOR YOU
+        </p>
+
+        <h2>
+            A LETTER FOR YOU ❤️
+        </h2>
+
+        <p class="letter-subtitle">
+            Click the heart to open this little envelope 💌
+        </p>
+
+        <!-- ENVELOPE -->
+        <div class="envelope-container" id="envelopeContainer">
+
+            <div class="envelope">
+
+                <div class="envelope-flap"></div>
+
+                <div class="envelope-bottom"></div>
+
+                <button
+                    class="heart-seal"
+                    onclick="openLetter()"
+                    aria-label="Open letter"
+                >
+                    ❤️
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- FLOATING WORDS -->
+        <div id="floatingLetterWords"></div>
+
+        <!-- LETTER -->
+        <div class="opened-letter" id="openedLetter">
+
+            <div class="letter-paper">
+
+                <span class="letter-heading">
+                    LETTER
+                </span>
+
+                <!-- KEEP YOUR EXISTING LETTER MATTER HERE EXACTLY -->
+
+                <p>
+                    Dear 😘,
+                </p>
+
+                <p>
+                    ADVANCE HAPPYYY BIRTHDAYYY PANDII GHA🐖🐷
+                </p>
+
+                <p>
+                    You are my most special and favvv
+                    personnn. You made my life most
+                    happiesttttttt and most beautifull.
+                    Thank youuuuu so muchhhhhhh.
+                </p>
+
+                <p>
+                    Nenu happyyy avadam kosam
+                    enooo chesavooo.
+                    Thankyouuuuuu so muchhh Vivekuuu.
+                </p>
+
+                <p>
+                    Ee photos, ee words,
+                    ee little memories nee tho undali untayii kadha😥.
+                </p>
+
+                
+
+                <p>
+                    Ne memories life long
+                    naathoooo undaliii untayii.
+                </p>
+
+                <p>
+                    Nee valaa chala telsukunaa.
+                    Nee valaaa naaku chalaaaa
+                    memorable daysss unayii.
+                </p>
+
+                <p>
+                    Naaku em kastam ochina
+                    mundhu untav.
+                    I likeeee youu so muchhh ra 🥰
+                </p>
+
+                <p>
+                    Nuvvu eppudoo ilage
+                    beautiful ga smile chesthu happy ga undaali.
+                </p>
+
+                <p>
+                    Life lo entha busy ayina,entha changes vachina,
+                    nee life lo happiness eppudu tagakudadu.
+                    Every minute navuthuuu undaliii.
+                </p>
+
+                <p>
+                    And most importantly...
+                   
+                </p>
+
+                <p>
+                    Nuvvu naaku entha special oh
+                    appatiki marchipovaddu. ❤️
+                </p>
+
+               
+
+                <p class="special-line">
+                    <strong>Happyyy Birthdayyy BANGARAM</strong>
+                    <br>
+                    ❤️
+                </p>
+
+            </div>
+
+            <button
+                class="main-btn letter-memory-btn"
+                onclick="showTogether()"
+            >
+                See Our Memories 🫶
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =====================================================
+     5. 27 TOGETHER PICTURES
+===================================================== -->
+
+<section
+    class="screen"
+    id="togetherPictures"
+>
+
+    <div class="content">
+
+        <p class="small-title">
+            OUR MEMORIES ❤️
+        </p>
+
+        <h2>
+            Moments With
+            <span>You</span>
+        </h2>
+
+        <p class="section-subtitle">
+            Some moments...
+            <br>
+            some smiles...
+            <br>
+            some memories...
+            <br>
+            <strong>just us. ❤️</strong>
+            <br><br>
+            <strong>CLCIK EVERY PICTURE</strong>
+        </p>
+
+
+        <div class="memory-grid">
+
+
+            <!-- TOGETHER 1 -->
+
+            <div class="memory-card">
+                <img src="to1.jpeg" alt="Together Memory 1">
+            </div>
+
+
+            <!-- TOGETHER 2 -->
+
+            <div class="memory-card">
+                <img src="to2.jpeg" alt="Together Memory 2">
+            </div>
+
+
+            <!-- TOGETHER 3 -->
+
+            <div class="memory-card">
+                <img src="to3.jpeg" alt="Together Memory 3">
+            </div>
+
+
+            <!-- TOGETHER 4 -->
+
+            <div class="memory-card">
+                <img src="to4.jpeg" alt="Together Memory 4">
+            </div>
+
+
+            <!-- TOGETHER 5 -->
+
+            <div class="memory-card">
+                <img src="to5.jpeg" alt="Together Memory 5">
+            </div>
+
+
+            <!-- TOGETHER 6 -->
+
+            <div class="memory-card">
+                <img src="to6.jpeg" alt="Together Memory 6">
+            </div>
+
+
+            <!-- TOGETHER 7 -->
+
+            <div class="memory-card">
+                <img src="to7.jpeg" alt="Together Memory 7">
+            </div>
+
+
+            <!-- TOGETHER 8 -->
+
+            <div class="memory-card">
+                <img src="to8.jpeg" alt="Together Memory 8">
+            </div>
+
+
+            <!-- TOGETHER 9 -->
+
+            <div class="memory-card">
+                <img src="to9.jpeg" alt="Together Memory 9">
+            </div>
+
+
+            <!-- TOGETHER 10 -->
+
+            <div class="memory-card">
+                <img src="to10.jpeg" alt="Together Memory 10">
+            </div>
+
+
+            <!-- TOGETHER 11 -->
+
+            <div class="memory-card">
+                <img src="to11.jpeg" alt="Together Memory 11">
+            </div>
+
+
+            <!-- TOGETHER 12 -->
+
+            <div class="memory-card">
+                <img src="to12.jpeg" alt="Together Memory 12">
+            </div>
+
+
+            <!-- TOGETHER 13 -->
+
+            <div class="memory-card">
+                <img src="to13.jpeg" alt="Together Memory 13">
+            </div>
+
+
+            <!-- TOGETHER 14 -->
+
+            <div class="memory-card">
+                <img src="to14.jpeg" alt="Together Memory 14">
+            </div>
+
+
+            <!-- TOGETHER 15 -->
+
+            <div class="memory-card">
+                <img src="to15.jpeg" alt="Together Memory 15">
+            </div>
+
+
+            <!-- TOGETHER 16 -->
+
+            <div class="memory-card">
+                <img src="to16.jpeg" alt="Together Memory 16">
+            </div>
+
+
+            <!-- TOGETHER 17 -->
+
+            <div class="memory-card">
+                <img src="to17.jpeg" alt="Together Memory 17">
+            </div>
+
+
+            <!-- TOGETHER 18 -->
+
+            <div class="memory-card">
+                <img src="to18.jpeg" alt="Together Memory 18">
+            </div>
+
+
+            <!-- TOGETHER 19 -->
+
+            <div class="memory-card">
+                <img src="to19.jpeg" alt="Together Memory 19">
+            </div>
+
+
+            <!-- TOGETHER 20 -->
+
+            <div class="memory-card">
+                <img src="to20.jpeg" alt="Together Memory 20">
+            </div>
+
+
+            <!-- TOGETHER 21 -->
+
+            <div class="memory-card">
+                <img src="to21.jpeg" alt="Together Memory 21">
+            </div>
+
+
+            <!-- TOGETHER 22 -->
+
+            <div class="memory-card">
+                <img src="to22.jpeg" alt="Together Memory 22">
+            </div>
+
+
+            <!-- TOGETHER 23 -->
+
+            <div class="memory-card">
+                <img src="to23.jpeg" alt="Together Memory 23">
+            </div>
+
+
+            <!-- TOGETHER 24 -->
+
+            <div class="memory-card">
+                <img src="to24.jpeg" alt="Together Memory 24">
+            </div>
+
+
+            <!-- TOGETHER 25 -->
+
+            <div class="memory-card">
+                <img src="to25.jpeg" alt="Together Memory 25">
+            </div>
+
+
+            <!-- TOGETHER 26 -->
+
+            <div class="memory-card">
+                <img src="to26.jpeg" alt="Together Memory 26">
+            </div>
+
+
+            <!-- TOGETHER 27 -->
+
+            <div class="memory-card">
+                <img src="to27.jpeg" alt="Together Memory 27">
+            </div>
+
+            <!-- TOGETHER 28 -->
+
+            <div class="memory-card">
+                <img src="to28.jpeg" alt="Together Memory 27">
+            </div>
+
+
+
+        </div>
+
+
+        <button
+            class="main-btn"
+            onclick="showFinalPage()"
+        >
+            One Last Page... ✨
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     6. FINAL PAGE
+===================================================== -->
+
+<section
+    class="screen"
+    id="finalPage"
+>
+
+    <div class="final-content">
+
+        <div class="floating-stars">
+            ✨ ❤️ ✨ ❤️ ✨
+        </div>
+
+        <p class="small-title">
+            TODAY IS YOUR DAY
+        </p>
+
+
+        <h1 class="birthday-title">
+            MATTAPARTHI
+            <br>
+            <span>VIVEK KARUNA SATISH</span>
+        </h1>
+
+
+        <h2 class="name">
+            GARU❤️
+        </h2>
+
+
+        <p class="final-message">
+
+            I could have simply sent you
+            a birthday message...
+
+            <br><br>
+
+            Kaani nuvvu naaku simple wish tho
+            saripoye person kaadu kadhaa andiii. ❤️
+
+            <br><br>
+
+
+            Ee little website nee face lo
+            oka smile teesukuraavali ani
+            korukuntunna. ❤️
+
+        </p>
+
+
+        <button
+            class="main-btn"
+            onclick="startCountdown()"
+        >
+            CONTINUE RE... 🎁
+        </button>
+
+    </div>
+
+</section>
+
+
+
+
+<!-- =====================================================
+     7. COUNTDOWN
+===================================================== -->
+
+<section class="screen" id="countdownScreen">
+
+    <div class="countdown-content">
+
+        <p class="small-title">
+            ONE LAST MOMENT...
+        </p>
+
+        <p class="watch-intro">
+
+            Almost there...
+
+            <br><br>
+
+            60 seconds for one last
+            wish.
+
+            <br><br>
+
+            Don't go anywhere... 🎁
+
+            <br><br>
+
+            ❤️ 🎂 ❤️
+
+        </p>
+
+        <div class="countdown-box">
+
+            <div class="countdown-label">
+                YOUR SPECIAL MOMENT
+            </div>
+
+            <div id="countdown">
+                01:00
+            </div>
+
+            <div class="countdown-heart">
+                ❤️
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     8. FIRST BIRTHDAY REVEAL
+     HIS PICTURE + BIRTHDAY TEXT
+     NO CAKE HERE
+===================================================== -->
+
+<section class="screen" id="birthdayFinal">
+
+    <div class="birthday-final-content">
+
+        <div class="celebration">
+            ✨ 💖 ✨ 💖 ✨
+        </div>
+
+        <h1 class="last-birthday">
+            MANY MANY MANY MORE
+            <br>
+            <span>HAPPY RETURNS OF THE DAY</span>
+        </h1>
+
+        <h2 class="kuchu">
+            MERE KUCHU PUCHU❤️
+        </h2>
+
+
+        <!-- HIS PICTURE ONLY -->
+
+        <div class="final-picture-box" id="finalPictureBox">
+
+            <div class="picture-click-hint">
+                ✨ CLICK THE PICTURE ✨
+            </div>
+
+            <img
+                src="final-picture.jpeg"
+                alt="Final Birthday Memory"
+                id="finalPicture"
+            >
+
+
+            <br><br>
+
+            Keep smiling like you always do.
+
+<br><br>
+
+And remember... you are the most special person in my life.
+
+and I trust you blindly after my amma and
+
+nana.
+
+<br><br>
+
+___>Nithoo chalaaa matladali nanaaa nuvu antee nak anthaa pichiiii ante 
+chalaaaaaaa chalaaaaaaa pranam nanaaa asalu undalennn ra nuvu oka roju doram petina
+
+<br><br>
+
+__>> Ninu Oka just friend ga unchikolen ra asaluuu katleee rojuuu nitho jarigina everyyyyy
+moments na mind tirugutayiii nak vere abayi odhu nikanaa better odhu worst
+odhuuu nuveee kavalii nanaaa.....
+
+<br><br>
+
+___>>Nenu petina mana edari pics oka oka pic oka oooo memoryy nanaa
+oka oka pic chosthuu aa suitation ne gurtu techukoo abayiii chalaa gurtuostayiii
+Manam edaram enthaaa happyyy ga unamooo
+
+<br><br>
+
+___>>>Nanu Appati ki ina accept chestav ani aasha nee meda feelings
+control cheskovadam na vala katleddd chalaaa antee chalaaa control
+cheskuntuna nanaaaa 
+
+<br><br>
+
+--->> Nathoni avatled abayiii naak nuvu kavali ne premaa kavliii
+lifelongggg nithone ra sachedakaaaa ani imagine cheksunaa nithonee Nak friend 
+ina lover ina nuvee kavali nanaaaaa ninu Chalaaa ante chalaaa
+naminaa nana aa namakam ni alane unchuthav ani asahaa
+
+<br><br>
+
+<br><br>
+
+--->>>
+
+
+  <br><br>
+  Remember nenu matram happy ga undalen ra nuvu natho lekapothe 
+  umaaaaaaaaaa nana I want u as my
+  everythingggggggg
+
+  <br><br>
+  <strong>
+
+  I WILL BE WAITINGGG FOR YOUU MY LIFETIME🥺.............</strong>
+
+  <br><br>
+
+<strong>
+
+You are special.
+
+for me nanna
+
+</strong>
+
+<br><br>
+
+<strong>
+    LOVE YOU NANAlUUU....🥺
+</strong>
+
+</p>
+
+
+
+        </div>
+
+
+        <button
+            class="main-btn birthday-continue-btn"
+            onclick="showBirthdayCelebration()"
+        >
+            CONTINUE ❤️
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     9. NEW CAKE + BALLOON CELEBRATION
+===================================================== -->
+
+<section class="screen" id="birthdayCelebration">
+
+    <!-- COLORFUL BALLOONS -->
+
+    <div id="celebrationBalloons"></div>
+
+    <div class="birthday-celebration-content">
+
+        <div class="celebration">
+            ✨ 🎉 ✨ 🎊 ✨
+        </div>
+
+        <p class="small-title">
+            YOUR SPECIAL DAY ❤️
+        </p>
+
+        <h1 class="celebration-title">
+            HAPPY
+            <br>
+            <span>BIRTHDAYYYY</span>
+        </h1>
+
+        <h2 class="celebration-name">
+             VIVEKUUU 😘
+        </h2>
+        <br><br>
+
+        <p class="cake-hint">
+    🕯️ Click the cake candle ✨
+</p>
+
+
+        <!-- BIG CAKE -->
+
+        
+
+        <!-- REALISTIC BIRTHDAY CAKE -->
+
+<div class="real-cake" onclick="blastCake()">
+
+    <!-- Candle -->
+    <div class="real-candle" id="realCandle">
+        <div class="candle-flame">🔥</div>
+    </div>
+
+    <!-- Candle blast effect -->
+    <div class="cake-blast" id="cakeBlast">
+        ✨ 💥 ✨
+    </div>
+
+    <!-- Strawberries -->
+    <div class="strawberries">
+        🍓 🍓 🍓
+    </div>
+
+    <!-- Top frosting -->
+    <div class="cake-frosting-top">
+        <span>HAPPY</span>
+    </div>
+
+    <!-- Top cake layer -->
+    <div class="real-cake-layer top-layer">
+    </div>
+
+    <!-- Cream -->
+    <div class="cream-layer"></div>
+
+    <!-- Middle cake layer -->
+    <div class="real-cake-layer middle-layer">
+        <span>BIRTHDAY</span>
+    </div>
+
+    <!-- Cream -->
+    <div class="cream-layer"></div>
+
+    <!-- Bottom cake layer -->
+    <div class="real-cake-layer bottom-layer">
+    </div>
+
+    <!-- Cake plate -->
+    <div class="cake-plate"></div>
+
+</div>
+
+
+
+
+       
+
+        <button
+            class="heart-button"
+            onclick="celebrate()"
+        >
+            ❤️
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     EFFECT CONTAINERS
+===================================================== -->
+
+<div id="hearts"></div>
+
+<div id="confetti"></div>
+
+<div id="balloonContainer"></div>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
